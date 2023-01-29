@@ -35,18 +35,6 @@ parser.add_argument(
     default=None,
 )
 parser.add_argument(
-    "--ngrok",
-    type=str,
-    help="ngrok authtoken, alternative to gradio --share",
-    default=None,
-)
-parser.add_argument(
-    "--ngrok-region",
-    type=str,
-    help="The region in which ngrok should start.",
-    default="us",
-)
-parser.add_argument(
     "--hide-builtin-presets",
     action="store_true",
     help="Hide built-in presets",
